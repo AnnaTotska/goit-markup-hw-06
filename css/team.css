@@ -1,7 +1,8 @@
 .team {
   background: #f4f4fd;
   text-align: center;
-  padding: 120px 0px;
+  /*padding: 120px 0px;*/
+  padding: 96px 0;
 }
 .team-title {
   font-weight: 700;
@@ -14,7 +15,11 @@
 }
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+  /*gap: 24px;*/
 }
 .team-item {
   background-color: #ffffff;
